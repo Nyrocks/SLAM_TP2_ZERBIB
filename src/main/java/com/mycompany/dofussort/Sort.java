@@ -21,7 +21,7 @@ public class Sort {
         this.degatMin = degatMin;
         this.niveau = niveau;
         this.element = element;
-    }
+    }   
 
     public String getNom() {
         return nom;

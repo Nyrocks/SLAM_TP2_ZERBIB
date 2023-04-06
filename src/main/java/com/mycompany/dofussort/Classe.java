@@ -11,6 +11,7 @@ import java.util.ArrayList;
  * @author erwan
  */
 public class Classe {
+   
     private String nom;
     private ArrayList<Sort> listeSort;
     private String bonus;
@@ -19,7 +20,10 @@ public class Classe {
         this.nom = nom;
         this.bonus = bonus;
         this.listeSort = new ArrayList<Sort>();
+        
     }
+    
+    
     
     public void addSort(Sort sortAjout)
     {
